@@ -1,3 +1,8 @@
 from pacc.project import KSJSB
 
-KSJSB('301').mainloop()
+KSJSB.mainloop([
+    '301',
+    '302',
+    '303',
+    '304',
+])
